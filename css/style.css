@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/bg.jpg)no-repeat;
+    
+}
+.mosquito1{
+    width: 3rem; height: 3rem;
+    
+
+}
+.mosquito2{
+    width: 4rem; height: 4rem;
+
+}
+.mosquito3{
+    width: 5rem; height: 5rem;
+
+}
+.ladoB{
+    transform: scaleX(-1);
+}
+.painel{
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0; left: 0;
+    border-top: solid 1px #fff;
+    background: #fff;
+    opacity: 0.6;
+}
+.gameover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    width: 7rem;
+    margin: 0 auto;
+    border: solid 1px; border-radius: 10px;
+    background: #fff;
+    cursor: pointer;
+}
+.niveis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+    margin: 20px auto;
+}
+.niveis .select{
+    text-align: center;
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+    transition: all 0.4s;
+}
