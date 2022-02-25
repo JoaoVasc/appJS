@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    cursor: url(../img/mata_mosca.png) 30 30, auto;
+}
 body{
     background: url(../img/bg.jpg)no-repeat;
     
